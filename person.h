@@ -8,7 +8,7 @@ using namespace std;
 
 /**
  * Person class definition
- * Reprenting a person with a ID and name
+ * Representing a person with a ID and name
  */
 
 class Person {

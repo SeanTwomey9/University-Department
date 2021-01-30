@@ -89,6 +89,12 @@
 		<Unit filename="/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/person.h">
 			<Option target="HW3"/>
 		</Unit>
+		<Unit filename="/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/student.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/student.h">
+			<Option target="HW3"/>
+		</Unit>
 		<Unit filename="/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

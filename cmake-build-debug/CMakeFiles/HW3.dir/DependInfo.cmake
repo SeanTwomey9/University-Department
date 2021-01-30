@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/main.cpp" "/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/cmake-build-debug/CMakeFiles/HW3.dir/main.cpp.o"
   "/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/person.cpp" "/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/cmake-build-debug/CMakeFiles/HW3.dir/person.cpp.o"
+  "/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/student.cpp" "/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/cmake-build-debug/CMakeFiles/HW3.dir/student.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
