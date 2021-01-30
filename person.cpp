@@ -10,7 +10,7 @@ using namespace std;
  * @param ID the identification number of a person
  * @param name the string representation of a person's name
  */
-Person:: Person(int idNum, string fullName) {
+Person:: Person(int idNum, const string & fullName) {
 
     ID = idNum;
     name = fullName;
@@ -48,7 +48,7 @@ int Person::getID() const {
  * Initializes a person's name to another name
  * @param fullName the name of the person being initialized
  */
-void Person::setName(string fullName) {
+void Person::setName(const string & fullName) {
 
     name = fullName;
 } //end function setName
@@ -67,7 +67,7 @@ string Person::getName() const {
  */
 void Person::print() const {
 
-    cout << "(" << name << ", " << ID << ")";
+    cout << "(" << getName() << ", " << getID() << ")";
 } //end function print
 
 

@@ -5,6 +5,7 @@
 #ifndef HW3_PERSON_H
 #define HW3_PERSON_H
 using namespace std;
+#include <string>
 
 /**
  * Person class definition
@@ -13,13 +14,13 @@ using namespace std;
 
 class Person {
 public:
-    Person(int, string); //full constructor
+    Person(int, const string&); //full constructor
     Person(); //empty constructor
 
     void setID(int); //set person's ID
     int getID() const; //return person's ID
 
-    void setName(string); //set person's name
+    void setName(const string&); //set person's name
     string getName() const; //return person's name
 
     void print() const; //outputs a Person object
