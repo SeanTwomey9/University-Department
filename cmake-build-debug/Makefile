@@ -170,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+person.o: person.cpp.o
+
+.PHONY : person.o
+
+# target to build an object file
+person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/person.cpp.o
+.PHONY : person.cpp.o
+
+person.i: person.cpp.i
+
+.PHONY : person.i
+
+# target to preprocess a source file
+person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/person.cpp.i
+.PHONY : person.cpp.i
+
+person.s: person.cpp.s
+
+.PHONY : person.s
+
+# target to generate assembly for a file
+person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/person.cpp.s
+.PHONY : person.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... person.o"
+	@echo "... person.i"
+	@echo "... person.s"
 .PHONY : help
 
 
