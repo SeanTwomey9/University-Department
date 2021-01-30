@@ -4,4 +4,4 @@ project(HW3)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(HW3
-        main.cpp person.h person.cpp student.cpp student.h)
+        main.cpp person.h person.cpp student.cpp student.h employee.cpp employee.h)

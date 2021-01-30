@@ -143,6 +143,33 @@ HW3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/build
 .PHONY : HW3/fast
 
+employee.o: employee.cpp.o
+
+.PHONY : employee.o
+
+# target to build an object file
+employee.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/employee.cpp.o
+.PHONY : employee.cpp.o
+
+employee.i: employee.cpp.i
+
+.PHONY : employee.i
+
+# target to preprocess a source file
+employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/employee.cpp.i
+.PHONY : employee.cpp.i
+
+employee.s: employee.cpp.s
+
+.PHONY : employee.s
+
+# target to generate assembly for a file
+employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/employee.cpp.s
+.PHONY : employee.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -233,6 +260,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HW3"
+	@echo "... employee.o"
+	@echo "... employee.i"
+	@echo "... employee.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
