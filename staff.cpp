@@ -51,7 +51,7 @@ string Staff::getTitle() const {
  */
 string Staff::print() const {
 
-    return "Title: " + getTitle() + ", " + Employee::print() + ", " + Person::print();
+    return "Title: " + getTitle() + ", " + Employee::print();
 } //end staff print function
 
 

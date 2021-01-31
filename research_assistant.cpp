@@ -58,17 +58,17 @@ string ResearchAssistant::getArea() const {
 
 string ResearchAssistant::print() const {
 
-    if(this->getTitle() == "") {
+    if(this->getTitle() == "") { //if the research assistant is a student
 
         return "Research area: " + getArea() + ", " + Student::print();
     }
 
-    else if(this->getgrad_year() == -2021 && this->getMajor() == "" && this->getGPA() == -4.0) {
+    else if(this->getgrad_year() == -2021 && this->getMajor() == "" && this->getGPA() == -4.0) { //if the research assistant is a staff
 
         return "Research area: " + getArea() + ", " + Staff::print();
     }
 
-    else {
+    else { //otherwise print an error
 
         return "ERROR: Unable to print Research Assistant due to inheritance issue.";
     }

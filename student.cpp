@@ -93,5 +93,5 @@ double Student::getGPA() const {
  */
 string Student::print() const {
 
-    return  Person::print() + ", " + "Graduation Year: " + to_string(getgrad_year()) + ", Major: " + getMajor() + ", GPA: " + to_string(getGPA());
+    return "Graduation Year: " + to_string(getgrad_year()) + ", Major: " + getMajor() + ", GPA: " + to_string(getGPA()) + ", " + Person::print();
 } //end function student print

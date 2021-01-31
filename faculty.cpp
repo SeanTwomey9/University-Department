@@ -76,5 +76,5 @@ string Faculty::getResearch() const {
  */
 string Faculty::print() const {
 
-    return "Title: " + getTitle() + ", Research Focus: " + getResearch() + ", " +  Employee::print() + ", " + Person::print();
+    return "Title: " + getTitle() + ", Research Focus: " + getResearch() + ", " +  Employee::print();
 } //end function faculty print
