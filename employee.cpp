@@ -72,6 +72,5 @@ string Employee::getDepartment() const {
  */
 string Employee::print() const {
 
-    Person::print();
-    return Person::print() + "Department: " + getDepartment() + ", Salary " + to_string(getSalary());
+    return Person::print() + ", Department: " + getDepartment() + ", Salary " + to_string(getSalary());
 } //end employee print function

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/employee.cpp
+iostream
+-
+employee.h
+/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/employee.h
+
+/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/employee.h
+string
+-
+person.h
+/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/person.h
+
+/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/person.h
+string
+-
+

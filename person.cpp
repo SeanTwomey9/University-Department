@@ -67,7 +67,7 @@ string Person::getName() const {
  */
 string Person::print() const {
 
-    return  getName() + ", " + getID();
+    return  "Name: " + getName() + ", ID: " + to_string(getID());
 } //end function print
 
 
