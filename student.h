@@ -25,7 +25,7 @@ public:
     double getGPA() const; //returns the students GPA in range of 0.0-4.0
     void setGPA(double); //sets the student's gpa
 
-    void print() const; //output representation of a student
+    string print() const; //output representation of a student
 
 private:
 

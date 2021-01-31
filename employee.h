@@ -21,7 +21,7 @@ public:
     void setDepartment(const string&); //sets the employee's department
     string getDepartment() const; //returns the employee's department
 
-    void print() const; //output a employee representation
+    string print() const; //output a employee representation
 
 private:
 

@@ -23,7 +23,7 @@ public:
     void setName(const string&); //set person's name
     string getName() const; //return person's name
 
-    void print() const; //outputs a Person object
+    string print() const; //outputs a Person object
 
 private:
     int ID;

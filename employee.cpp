@@ -70,8 +70,8 @@ string Employee::getDepartment() const {
  * Print function which outputs the Employee's essential name and ID info
  * Followed by their department and salary
  */
-void Employee::print() const {
+string Employee::print() const {
 
     Person::print();
-    cout << "-" <<"Department: " << getDepartment() << ", Salary " << getSalary();
+    return Person::print() + "Department: " + getDepartment() + ", Salary " + to_string(getSalary());
 } //end employee print function

@@ -91,8 +91,7 @@ double Student::getGPA() const {
  * Outputs a student's name and ID using Person's print function
  * Then outputs Student member variable information
  */
-void Student::print() const {
+string Student::print() const {
 
-    Person::print();
-    cout << "-" <<"Graduation Year: " << getgrad_year() << ", Major: " << getMajor() << ", GPA: " << getGPA();
+    return  Person::print() + "Graduation Year: " + to_string(getgrad_year()) + ", Major: " + getMajor() + ", GPA: " + to_string(getGPA());
 } //end function student print

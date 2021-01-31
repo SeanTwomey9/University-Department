@@ -9,7 +9,7 @@
 #include <string>
 
 
-class Faculty {
+class Faculty: public Employee {
 
 public:
     Faculty(int, const string&, double, const string&, const string&, const string&); //full constructor for faculty
@@ -21,7 +21,7 @@ public:
     void setResearch(const string&); //sets the faculty member's research focus
     string getResearch() const; //returns the faculty member's research focus
 
-    void print() const; //prints the faculty representation
+    string print() const; //prints the faculty representation
 
 private:
 

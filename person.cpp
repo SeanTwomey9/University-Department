@@ -65,9 +65,9 @@ string Person::getName() const {
 /**
  * Prints out a representation of a person with their name and ID
  */
-void Person::print() const {
+string Person::print() const {
 
-    cout << "(" << getName() << ", " << getID() << ")";
+    return  getName() + ", " + getID();
 } //end function print
 
 
