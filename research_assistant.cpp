@@ -56,6 +56,13 @@ string ResearchAssistant::getArea() const {
     return area;
 } //end function getArea
 
+/**
+ * Prints the pertinent information for a research assistant
+ * If they possess default values for a staff, they are printed as a student
+ * If they possess default values for a student, they are printed as a staff
+ * Otherwise if they contain default values on both sides or have no default values at all, an error messae is printed
+ * @return Respective print statement for staff or student oriented research assistant
+ */
 string ResearchAssistant::print() const {
 
     if(this->getTitle() == "") { //if the research assistant is a student
@@ -72,4 +79,4 @@ string ResearchAssistant::print() const {
 
         return "ERROR: Unable to print Research Assistant due to inheritance issue.";
     }
-}
+} //end research assistant print function
