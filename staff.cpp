@@ -14,13 +14,9 @@
  * @param staffDepartment The staff member's department
  * @param staffTitle The staff member's title
  */
-Staff::Staff(int staffID, const string & staffName, double staffSalary, const string & staffDepartment, const string & staffTitle) {
-
-    setID(staffID);
-    setName(staffName);
-    setSalary(staffSalary);
-    setDepartment(staffDepartment);
-    title = staffTitle;
+Staff::Staff(int staffID, const string & staffName, double staffSalary, const string & staffDepartment, const string & staffTitle):
+Employee(staffID, staffName, staffSalary, staffDepartment) {
+    setTitle(staffTitle);
 } //end full staff constructor
 
 /**

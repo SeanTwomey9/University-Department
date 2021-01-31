@@ -251,6 +251,33 @@ person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/person.cpp.s
 .PHONY : person.cpp.s
 
+research_assistant.o: research_assistant.cpp.o
+
+.PHONY : research_assistant.o
+
+# target to build an object file
+research_assistant.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/research_assistant.cpp.o
+.PHONY : research_assistant.cpp.o
+
+research_assistant.i: research_assistant.cpp.i
+
+.PHONY : research_assistant.i
+
+# target to preprocess a source file
+research_assistant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/research_assistant.cpp.i
+.PHONY : research_assistant.cpp.i
+
+research_assistant.s: research_assistant.cpp.s
+
+.PHONY : research_assistant.s
+
+# target to generate assembly for a file
+research_assistant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/research_assistant.cpp.s
+.PHONY : research_assistant.cpp.s
+
 staff.o: staff.cpp.o
 
 .PHONY : staff.o
@@ -326,6 +353,9 @@ help:
 	@echo "... person.o"
 	@echo "... person.i"
 	@echo "... person.s"
+	@echo "... research_assistant.o"
+	@echo "... research_assistant.i"
+	@echo "... research_assistant.s"
 	@echo "... staff.o"
 	@echo "... staff.i"
 	@echo "... staff.s"

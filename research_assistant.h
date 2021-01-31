@@ -4,13 +4,14 @@
 
 #ifndef HW3_RESEARCH_ASSISTANT_H
 #define HW3_RESEARCH_ASSISTANT_H
-#include "student.h"
-#include "staff.h"
 #include <string>
 #include <iostream>
+#include "staff.h"
+#include "student.h"
+using namespace std;
 
 
-class ResearchAssistant: public Student, public Staff {
+class ResearchAssistant: public Staff, public Student {
 
 public:
 
@@ -25,6 +26,8 @@ private:
 
     string area; //research area of a research assistant
 }; //end research assistant class
+
+
 
 
 #endif //HW3_RESEARCH_ASSISTANT_H
