@@ -86,6 +86,12 @@
 		<Unit filename="/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/employee.h">
 			<Option target="HW3"/>
 		</Unit>
+		<Unit filename="/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/faculty.cpp">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/faculty.h">
+			<Option target="HW3"/>
+		</Unit>
 		<Unit filename="/Users/seantwomey/Desktop/CWRU /Senior Year/CSDS 397 C:C++/Homeworks/HW 3/HW3/main.cpp">
 			<Option target="HW3"/>
 		</Unit>

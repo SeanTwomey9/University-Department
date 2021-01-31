@@ -170,6 +170,33 @@ employee.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/employee.cpp.s
 .PHONY : employee.cpp.s
 
+faculty.o: faculty.cpp.o
+
+.PHONY : faculty.o
+
+# target to build an object file
+faculty.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/faculty.cpp.o
+.PHONY : faculty.cpp.o
+
+faculty.i: faculty.cpp.i
+
+.PHONY : faculty.i
+
+# target to preprocess a source file
+faculty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/faculty.cpp.i
+.PHONY : faculty.cpp.i
+
+faculty.s: faculty.cpp.s
+
+.PHONY : faculty.s
+
+# target to generate assembly for a file
+faculty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/faculty.cpp.s
+.PHONY : faculty.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -263,6 +290,9 @@ help:
 	@echo "... employee.o"
 	@echo "... employee.i"
 	@echo "... employee.s"
+	@echo "... faculty.o"
+	@echo "... faculty.i"
+	@echo "... faculty.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
