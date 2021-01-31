@@ -251,6 +251,33 @@ person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/person.cpp.s
 .PHONY : person.cpp.s
 
+staff.o: staff.cpp.o
+
+.PHONY : staff.o
+
+# target to build an object file
+staff.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/staff.cpp.o
+.PHONY : staff.cpp.o
+
+staff.i: staff.cpp.i
+
+.PHONY : staff.i
+
+# target to preprocess a source file
+staff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/staff.cpp.i
+.PHONY : staff.cpp.i
+
+staff.s: staff.cpp.s
+
+.PHONY : staff.s
+
+# target to generate assembly for a file
+staff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW3.dir/build.make CMakeFiles/HW3.dir/staff.cpp.s
+.PHONY : staff.cpp.s
+
 student.o: student.cpp.o
 
 .PHONY : student.o
@@ -299,6 +326,9 @@ help:
 	@echo "... person.o"
 	@echo "... person.i"
 	@echo "... person.s"
+	@echo "... staff.o"
+	@echo "... staff.i"
+	@echo "... staff.s"
 	@echo "... student.o"
 	@echo "... student.i"
 	@echo "... student.s"
